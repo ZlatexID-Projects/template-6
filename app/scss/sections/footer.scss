@@ -22,11 +22,11 @@ footer {
   }
 }
 
-@media screen and (max-width:422px){
-  footer .container .social-links{
+@media screen and (max-width: 422px) {
+  footer .container .social-links {
     justify-content: center;
-   .social-link{ margin: 5px;}
-  
+    .social-link {
+      margin: 5px;
+    }
   }
-  
 }

@@ -59,28 +59,28 @@ section.portfolio {
   }
 }
 
-@media screen and (max-width:768px){
-  section.portfolio{
-   .laptops .laptop img{
-    width: 250px;
-    height: auto;
-  }}
+@media screen and (max-width: 768px) {
+  section.portfolio {
+    .laptops .laptop img {
+      width: 250px;
+      height: auto;
+    }
+  }
 }
-@media screen and (max-width:422px){
-  section.portfolio .filters{
+@media screen and (max-width: 422px) {
+  section.portfolio .filters {
     justify-content: center;
-    .filter-block{
+    .filter-block {
       margin: 3%;
     }
   }
 }
-@media screen and (max-width:720px){
-  section.portfolio .btn{
+@media screen and (max-width: 720px) {
+  section.portfolio .btn {
     line-height: 3px;
     font-size: 17px;
     width: 230px;
     padding: 23px;
     height: 50px;
-     }
-  
+  }
 }

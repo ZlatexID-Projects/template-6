@@ -10,10 +10,10 @@ section.we-got-skills {
     margin-top: 80px;
   }
   .precent-block {
-    &:first-child{
+    &:first-child {
       padding-left: 25px;
     }
-    &:last-child{
+    &:last-child {
       margin-left: -12px;
     }
     h3 {
@@ -28,23 +28,23 @@ section.we-got-skills {
   }
 }
 
-@media screen and (max-width: 991px){
-  section.we-got-skills{
-     div.description{
+@media screen and (max-width: 991px) {
+  section.we-got-skills {
+    div.description {
       font-size: 16px;
-     }
-     .row.precents .precent-block{
-       padding: 0;
-       h3{
-         line-height: 50px;
-         font-size: 18px;
-       }
-     }
+    }
+    .row.precents .precent-block {
+      padding: 0;
+      h3 {
+        line-height: 50px;
+        font-size: 18px;
+      }
+    }
   }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px) {
   section.we-got-skills .container .precents {
-    .precent-block:last-child{
+    .precent-block:last-child {
       margin: 0;
     }
   }

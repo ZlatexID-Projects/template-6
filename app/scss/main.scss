@@ -65,15 +65,14 @@ $italic: "TitilliumWeb Italic";
     letter-spacing: 0.02em;
     color: $color;
   }
-  @media screen and (max-width:720px){
-
-    h2{
+  @media screen and (max-width: 720px) {
+    h2 {
       font-size: 28px;
     }
-   div.description{
-     font-size: 16px;
-     padding: 18px 0 0;
-   }
+    div.description {
+      font-size: 16px;
+      padding: 18px 0 0;
+    }
   }
 }
 
@@ -100,6 +99,3 @@ $italic: "TitilliumWeb Italic";
 @import "./sections/what-say.scss";
 @import "./sections/get-it.scss";
 @import "./sections/footer.scss";
-
-
-

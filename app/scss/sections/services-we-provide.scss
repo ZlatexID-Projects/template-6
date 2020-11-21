@@ -45,19 +45,24 @@ section.services-we-provide {
   padding-bottom: 127px;
 }
 
-@media screen and(max-width:1200px){
-  section.services-we-provide .container{
-    .services-blocks .services-block{
-     .title,.desc{margin-left: 0;}
-     .desc{font-size: 14px;}
+@media screen and(max-width:1200px) {
+  section.services-we-provide .container {
+    .services-blocks .services-block {
+      .title,
+      .desc {
+        margin-left: 0;
+      }
+      .desc {
+        font-size: 14px;
+      }
     }
   }
 }
-@media screen and(max-width:991px){
+@media screen and(max-width:991px) {
   .services-block {
     margin-bottom: 30px;
-    .img{
-      margin: auto
+    .img {
+      margin: auto;
     }
   }
 }

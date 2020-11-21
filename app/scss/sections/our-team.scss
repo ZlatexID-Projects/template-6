@@ -8,9 +8,13 @@ section.our-team {
       &:first-child {
         padding-left: 5px;
       }
-      &:nth-child(4){
-        .title{margin-left: 17px;}
-        .desc{margin-left: 13px;}
+      &:nth-child(4) {
+        .title {
+          margin-left: 17px;
+        }
+        .desc {
+          margin-left: 13px;
+        }
       }
       .img img {
         border-radius: 50%;
@@ -63,12 +67,14 @@ section.our-team {
   padding-bottom: 127px;
 }
 
-@media screen and (max-width:991px){
-  section.our-team .team-blocks .team-block{
+@media screen and (max-width: 991px) {
+  section.our-team .team-blocks .team-block {
     margin-bottom: 20px;
-    &:nth-child(4) {.title, .desc{margin-left: 0 ; } }
-    
-    
+    &:nth-child(4) {
+      .title,
+      .desc {
+        margin-left: 0;
+      }
+    }
   }
-
 }

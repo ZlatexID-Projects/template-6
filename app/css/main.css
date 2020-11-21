@@ -4150,9 +4150,11 @@ header {
     font-size: 34px; } }
 
 @media screen and (max-width: 768px) {
-  header .nav-and-logo .container .row .logo-col, header .nav-and-logo .container .row .nav-col .main-menu {
+  header .nav-and-logo .container .row .logo-col,
+  header .nav-and-logo .container .row .nav-col .main-menu {
     padding-left: 0; }
-    header .nav-and-logo .container .row .logo-col .menu-block, header .nav-and-logo .container .row .nav-col .main-menu .menu-block {
+    header .nav-and-logo .container .row .logo-col .menu-block,
+    header .nav-and-logo .container .row .nav-col .main-menu .menu-block {
       margin-bottom: 10px; }
   header .header-info .info-text p {
     font-size: 25px;
@@ -4220,7 +4222,8 @@ section.services-we-provide {
           margin: 0 0 0 17px; }
 
 @media screen and (max-width: 1200px) {
-  section.services-we-provide .container .services-blocks .services-block .title, section.services-we-provide .container .services-blocks .services-block .desc {
+  section.services-we-provide .container .services-blocks .services-block .title,
+  section.services-we-provide .container .services-blocks .services-block .desc {
     margin-left: 0; }
   section.services-we-provide .container .services-blocks .services-block .desc {
     font-size: 14px; } }
@@ -4304,7 +4307,8 @@ section.our-team {
 @media screen and (max-width: 991px) {
   section.our-team .team-blocks .team-block {
     margin-bottom: 20px; }
-    section.our-team .team-blocks .team-block:nth-child(4) .title, section.our-team .team-blocks .team-block:nth-child(4) .desc {
+    section.our-team .team-blocks .team-block:nth-child(4) .title,
+    section.our-team .team-blocks .team-block:nth-child(4) .desc {
       margin-left: 0; } }
 
 section.we-got-skills {

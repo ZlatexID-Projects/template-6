@@ -1,0 +1,92 @@
+header {
+  background-color: $headercolor;
+  .nav-and-logo .container {
+    .logo-col {
+      padding: 58px 0 0 60px;
+    }
+    .nav-col .main-menu {
+      padding: 65px 0 0 93px;
+      .menu-block a {
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 4px 16px;
+      }
+      .menu-block.selected a,
+      .menu-block a:hover {
+        background-color: #643a79;
+        border-radius: 5px;
+      }
+      .menu-block + .menu-block {
+        margin-left: 13px;
+      }
+    }
+  }
+  .header-info {
+    padding-top: 127px;
+    .info-text {
+      p {
+        margin: 0;
+      }
+      p:first-child {
+        margin-left: -6px;
+      }
+      p:last-child {
+        line-height: 0.9;
+      }
+      font-family: $bold;
+      color: #f7f3ea;
+      font-size: 42.2px;
+      padding: 0;
+    }
+  }
+  .work-with-us {
+    margin-top: 59px;
+    @include btn($btnimg, 27px 79px);
+  }
+  padding-bottom: 144px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  header {
+    text-align: center;
+    .nav-and-logo .container .row .nav-col .main-menu .menu-block {
+      margin: auto;
+    }
+    .header-info .container{
+      .info-text{margin-left: 0;}
+    }
+  }
+}
+
+@media screen and(max-width:991px) and (min-width:768px){
+  header .header-info .info-text p{
+    font-size: 34px;
+  }
+}
+
+@media screen and (max-width:768px){
+  header {
+    .nav-and-logo .container .row{
+      .logo-col, .nav-col .main-menu{
+        padding-left: 0;
+        .menu-block{margin-bottom: 10px;}
+      }
+    }
+    .header-info{
+       .info-text p{
+      font-size: 25px;
+      line-height: 1;
+    }
+    .work-with-us .btn{
+      width: 150px;
+      height: 43px;
+      font-size: 12px;
+    
+      padding: 12px 5px;
+    }
+  }
+  }
+}

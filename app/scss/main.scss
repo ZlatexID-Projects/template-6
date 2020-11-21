@@ -1,0 +1,105 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/input-group";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+@font-face {
+  font-family: "TitilliumWeb Regular";
+  src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+  font-family: "TitilliumWeb Italic";
+  src: url("../fonts/TitilliumWeb-Italic.ttf");
+}
+
+@font-face {
+  font-family: "TitilliumWeb Bold";
+  src: url("../fonts/TitilliumWeb-Bold.ttf");
+}
+@font-face {
+  font-family: "TitilliumWeb SemiBold";
+  src: url("../fonts/TitilliumWeb-SemiBold.ttf");
+}
+
+body {
+  font-family: "TitilliumWeb Regular";
+}
+.line {
+  background-image: url("../img/line_94.png");
+  background-repeat: no-repeat;
+  width: 87px;
+  height: 4px;
+  margin: 0 auto;
+  opacity: 0.14;
+}
+
+$btnimg: url("../img/btn_bg.png");
+$btnimg-secondary: url("../img/btn_secondary.png");
+$btnimg-3: url("../img/btn_3.png");
+$headercolor: #87509c;
+$regular: "TitilliumWeb Regular";
+$bold: "TitilliumWeb Bold";
+$semibold: "TitilliumWeb SemiBold";
+$italic: "TitilliumWeb Italic";
+
+@mixin section-header($color, $mt) {
+  padding-top: 110px;
+  h2 {
+    font-family: $bold;
+    color: $color;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    margin-bottom: 11px;
+  }
+  div.description {
+    margin-top: $mt;
+    padding: 18px 61px 0;
+    font-family: $regular;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: $color;
+  }
+  @media screen and (max-width:720px){
+
+    h2{
+      font-size: 28px;
+    }
+   div.description{
+     font-size: 16px;
+     padding: 18px 0 0;
+   }
+  }
+}
+
+@mixin btn($img, $padding) {
+  .btn {
+    background-image: $img;
+    background-repeat: no-repeat;
+    padding: $padding;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    font-family: $semibold;
+    font-size: 18px;
+    color: #fff;
+    width: 293px;
+    height: 70px;
+  }
+}
+
+@import "./sections/header.scss";
+@import "./sections/services-we-provide.scss";
+@import "./sections/our-team.scss";
+@import "./sections//we-got-skills.scss";
+@import "./sections/portfolio.scss";
+@import "./sections/what-say.scss";
+@import "./sections/get-it.scss";
+@import "./sections/footer.scss";
+
+
+

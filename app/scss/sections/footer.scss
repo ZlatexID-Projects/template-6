@@ -1,0 +1,32 @@
+footer {
+  background-color: #344b8e;
+  padding-bottom: 41px;
+  .social-links {
+    justify-content: space-between;
+    max-width: 941px;
+    margin: auto;
+    flex-wrap: wrap;
+    cursor: pointer;
+    padding-top: 42px;
+    a.social-link {
+      font-family: $bold;
+      font-size: 24px;
+      line-height: 29px;
+      letter-spacing: 0.02em;
+      color: #ffffff;
+      &.selected,
+      &:hover {
+        color: #30bae7;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:422px){
+  footer .container .social-links{
+    justify-content: center;
+   .social-link{ margin: 5px;}
+  
+  }
+  
+}

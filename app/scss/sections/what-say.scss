@@ -30,7 +30,7 @@ section.what-say {
         font-size: 21px;
         line-height: 31px;
         font-family: $italic;
-        max-width: 372px;
+        max-width: 371px;
         letter-spacing: 0.033em;
       }
       .who-say {
@@ -92,4 +92,10 @@ section.what-say {
     padding-left: 0;
     margin-top: 50px;
   }
+}
+@media (width:768px) and (height:1024px){
+  section.what-say .reviews .review:nth-child(3) img{
+    bottom: 35px;
+  }
+      
 }
